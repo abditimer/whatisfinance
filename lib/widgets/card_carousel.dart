@@ -4,6 +4,9 @@ import 'package:flutter_travel_ui_starter/screens/destination_screen.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 class CardCarousel extends StatelessWidget {
+
+  //take string
+  
   @override
   Widget build(BuildContext context) {
     return Column(
@@ -47,6 +50,7 @@ class CardCarousel extends StatelessWidget {
           itemCount: cards.length,
           itemBuilder: (BuildContext context, int index) {
             CardScroll card = cards[index];
+            
             return GestureDetector(
               //onTap: () => Navigator.push(
                   //context,
